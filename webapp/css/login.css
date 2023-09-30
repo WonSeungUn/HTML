@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#page {
+	padding-top: 100px;
+	width: 1440px;
+	margin: 0 auto;
+
+}
+
+header,
+main {
+	width: 1440px;
+	margin: 0 auto;
+}
+
+header {
+	height: 54px;
+}
+
+.header_inner {
+	width: 400px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+main {
+	height:800px;
+}
+
+section {
+	height: 570px;
+	margin: 0 auto;
+}
+
+section,
+.login_form,
+.login_check,
+.create_btn, 
+.login_btn_area,
+.login_btn, 
+.input_check,
+.id_pw_info,
+.login_sns_box,
+.non_user_btn {
+	width: 340px;
+}
+
+.login_form {
+	height: 490px;
+}
+
+.login_check {
+	height: 90px;
+}
+
+input {
+	border-radius: 5px;
+	height: 44px;
+} 
+
+.login_btn {
+	height: 50px;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+
+.login_btn:hover,
+.create_btn,
+.non_user_btn{
+  cursor: pointer;
+}
+
+.checkbox {
+	height: 22px;
+}
+
+.id_pw_info{
+	display: flex;
+	height: 22px;
+	margin-top:10px;
+	font-size: small;
+	justify-content: space-between;
+}
+
+.login_sns_box {
+	height: 95px;
+	margin-top:40px;
+	border: 1px solid olivedrab;
+}
+
+.create_btn,
+.non_user_btn {
+	height: 50px;
+	border-radius: 10px;
+	margin-top: 10px;
+}
+
+
+ 	
+
